@@ -6,9 +6,9 @@
 
 $(document).ready(function () {
     $("#eliminar").hide();
-    if ($("#eliminar").hide()) {
+
         $("#eliminarLi").click(function () {
-            $("#eliminar").show();
+            $("#eliminar").toggle();
         });
-    }
+    
 });
