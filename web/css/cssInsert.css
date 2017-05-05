@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-may-2017, 13:31:31
+    Author     : ALUMNO IG
+*/
+
+body{
+    background-color: lightgrey;
+}
+div{
+    color:white;
+    border: 2px solid;
+    border-radius: 1em;
+    background-color: #7DBC39;
+    margin: 50px 0px 0px 470px;
+    display: inline-block;
+    background-size: 100%;
+    padding: 1em;
+    padding-right: 4em;
+    padding-left: 4em;
+}
+img{
+    margin-left: 4em;
+}
+ul{
+    list-style-type: square;
+    text-align: left;
+}
+h1,h2,p{
+    text-align: center;
+}
+input[type="text"]{
+    margin-left: 6em;
+}
+input[type="text"]:nth-child(3){
+    margin-left: 3.3em;
+}
+input[type="text"]:nth-child(5){
+    margin-left: 1.45em;
+}
+input[type="text"]:nth-child(7){
+    margin-left: 4.2em;
+}
+#enviar{
+    margin-top: 1em;
+    background: rgb(28, 184, 65);
+    padding: 0.05em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 1em;
+    border: 2px solid white;
+    color: white;
+    font-size: x-large;
+}
+#reset{
+    background: rgb(202, 60, 60);
+    padding: 0.05em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 1em;
+    border: 2px solid white;
+    color: white;
+    font-size: x-large;
+}
